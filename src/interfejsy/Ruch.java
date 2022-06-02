@@ -1,11 +1,11 @@
 package interfejsy;
 
 public interface Ruch {
-
-    void wjazd() {
-    }
-
-    void wyjazd() {
-    }
+//
+//    void wjazd() {
+//    }
+//
+//    void wyjazd() {
+//    }
 
 }

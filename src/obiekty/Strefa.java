@@ -2,45 +2,22 @@ package obiekty;
 
 import java.util.ArrayList;
 
-public class Strefa {
+public enum Strefa {
+    StrefaMotor(5, 2), StrefaOsobowka(10, 5), StrefaCiezarowka(20, 1);
+    private final int cena;
+    private final int pojemnosc;
 
-
-    private ArrayList<Motor> strefaMotor = new ArrayList<Motor>();
-    private ArrayList<Osobowka> strefaOsobowka = new ArrayList<Osobowka>();
-    private ArrayList<Ciezarowka> strefaCiezarowka = new ArrayList<Ciezarowka>();
-
-
-    public ArrayList<Motor> getStrefaMotor() {
-        return strefaMotor;
+    private Strefa(int cena, int pojemnosc) {
+        this.cena = cena;
+        this.pojemnosc = pojemnosc;
     }
 
-    public void addStrefaMotor(Motor motor) {
-        strefaMotor.add(motor);
+    public int getCena() {
+        return cena;
     }
 
-    public ArrayList<Osobowka> getStrefaOsobowka() {
-        return strefaOsobowka;
-    }
-
-    public void addStrefaOsobowka(Osobowka osobowka) {
-        strefaOsobowka.add(osobowka);
-    }
-
-    public ArrayList<Ciezarowka> getStrefaCiezarowka() {
-        return strefaCiezarowka;
-    }
-
-    public void addStrefaCiezarowka(Ciezarowka ciezarowka) {
-        strefaCiezarowka.add(ciezarowka);
-    }
-
-    @Override
-    public String toString() {
-        return "Strefa{" +
-                "strefaMotor=" + strefaMotor +
-                ", strefaOsobowka=" + strefaOsobowka +
-                ", strefaCiezarowka=" + strefaCiezarowka +
-                '}';
+    public int getPojemnosc() {
+        return pojemnosc;
     }
 
 }
