@@ -2,15 +2,14 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="9f10d3d3-e127-4bca-ba1e-8dd00656f3d2" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/parking.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obiekty/Parking.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obiekty/Pojazd.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/obiekty/Strefa.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/interfejsy/Ruch.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/obiekty/Ciezarowka.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/obiekty/Motor.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/obiekty/Osobowka.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obiekty/Parking.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/obiekty/Parking.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obiekty/Pojazd.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/obiekty/Pojazd.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/obiekty/Strefa.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/obiekty/Strefa.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -22,11 +21,18 @@
       <list>
         <option value="Enum" />
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
+  <component name="FormatOnSaveOptions">
+    <option name="myRunOnSave" value="true" />
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
   </component>
   <component name="ProjectId" id="2A1U2OLt7rPkkS6QJkxKqOX3wDr" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true">
@@ -40,7 +46,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "C:/Users/klyme/Desktop/po/Sofiia_19395/parking"
+    "last_opened_file_path": "C:/Users/klyme/Desktop/po/Sofiia_19395/parking",
+    "settings.editor.selected.configurable": "actions.on.save"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
